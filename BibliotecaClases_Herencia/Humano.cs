@@ -10,6 +10,10 @@ namespace BibliotecaClases_Herencia
     // en la clase Humano explicitamente
     public class Humano : Mamifero
     {
+        // Constructor parametrizado
+        public Humano(String nombreHumano) : base(nombreHumano) { }
+        
+        // Metodo Publico
         public void pensar()
         {
             Console.WriteLine("Soy capaz de pensar ¿?");

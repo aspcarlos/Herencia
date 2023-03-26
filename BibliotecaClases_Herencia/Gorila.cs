@@ -10,6 +10,10 @@ namespace BibliotecaClases_Herencia
     // en la clase Gorila explicitamente
     public class Gorila : Mamifero
     {
+        // Constructor parametrizado
+        public Gorila (String nombreGorila) : base (nombreGorila) { }
+
+        // Metodo Publico
         public void trepar()
         {
             Console.WriteLine("Soy capaz de trepar");
